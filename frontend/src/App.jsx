@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
-// API Base URL (FastAPI)
-const API_URL = "http://127.0.0.1:8000"
+// API Base URL
+const API_URL = "https://my-api-backend-hbbv.onrender.com"
 
 function App() {
   const [employees, setEmployees] = useState([])
